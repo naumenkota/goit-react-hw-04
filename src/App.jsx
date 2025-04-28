@@ -62,7 +62,8 @@ function App() {
 
   const handleSubmit = newQuery => {
       setQuery(newQuery);
-      setPage(1);
+    setPage(1);
+     setImages([]);
   }
 
   const loadMoreImages = () => {
